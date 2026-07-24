@@ -22,9 +22,12 @@ class TestCalculator(unittest.TestCase):
         # Ali
         pass
 
-    def division(self) -> None:
-        # Arash
-        pass
+    def division(a,b) -> None:
+        #َArash
+        if b == 0:
+            raise ValueError("b cant be 0")
+        return (a/b)
+        
 
     def division_by_zero(self) -> None:
         # Zahra
