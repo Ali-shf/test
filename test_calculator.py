@@ -24,7 +24,9 @@ class TestCalculator(unittest.TestCase):
         pass
 
     def division(self) -> None:
-        # Arash
+        #َArash
+        self.assertEqual(self.calc.division(10, 2), 5.0)
+
         pass
 
     def division_by_zero(self) -> None:
