@@ -11,7 +11,7 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_addition(self) -> None:
-        # Mahyar
+        self.assertEqual(self.calc.addition(2,5), 7)
         pass
 
     def test_subtraction(self) -> None:
