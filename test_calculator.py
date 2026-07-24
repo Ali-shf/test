@@ -6,7 +6,7 @@ class TestCalculator(unittest.TestCase):
 
     def setUp(self) -> None:
         """ This method instantiate objects from Calculator class """
-        Calculator() 
+        self.calc = Calculator()
         
 
 
