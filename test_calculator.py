@@ -16,6 +16,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_subtraction(self) -> None:
         # Roozbeh
+        self.assertEqual(self.calc.subtraction(4,1), 3)
         pass
 
     def test_multiplcation(self) -> None:
