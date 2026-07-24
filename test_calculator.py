@@ -6,9 +6,7 @@ class TestCalculator(unittest.TestCase):
 
     def setUp(self) -> None:
         """ This method instantiate objects from Calculator class """
-        Calculator() 
-        
-
+        Calculator()
 
     def test_addition(self) -> None:
         # Mahyar
@@ -19,7 +17,8 @@ class TestCalculator(unittest.TestCase):
         pass
 
     def test_multiplcation(self) -> None:
-        # Ali
+        res = Calculator.multiplication(2, 3)
+        self.assertEqual(res, 6)
         pass
 
     def division(self) -> None:
@@ -29,4 +28,3 @@ class TestCalculator(unittest.TestCase):
     def division_by_zero(self) -> None:
         # Khodam
         pass
-        
