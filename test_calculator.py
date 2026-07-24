@@ -29,4 +29,6 @@ class TestCalculator(unittest.TestCase):
     def division_by_zero(self) -> None:
         # Zahra
         pass
-        
+
+if __name__ == "__main__" :
+    unittest.main()
